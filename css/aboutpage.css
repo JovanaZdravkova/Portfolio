@@ -1,0 +1,42 @@
+    .wrapper {
+        display: flex;
+        flex-direction: row;
+        margin: 50px 0 50px 0;
+    }
+    
+    .wrapper .left-wrapper img {
+        width: 200px;
+        height: 283px;
+    }
+    
+    .left-wrapper {
+        margin-right: 20px;
+    }
+    
+    .right-wrapper h3 {
+        font-size: 18 px;
+    }
+
+    @media only screen and (max-width: 600px) {
+        .wrapper {
+            display: flex;
+            flex-direction: column;
+            margin: 50px 0 50px 0;
+            align-items: center;
+        }
+        .left-wrapper{
+            margin-right: 0;
+        }
+        .right-wrapper{
+            text-align: center;
+        }
+        .right-wrapper h1{
+            font-size: 16px;
+        }
+        .right-wrapper h3 {
+            font-size: 14px;
+        }
+        .right-wrapper {
+            width: 300px;
+        }
+    }
