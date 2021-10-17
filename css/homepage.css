@@ -140,9 +140,9 @@ nav .navbar-brand:hover {
 }
 
 .card-wrapper .img3 {
-    width: 534px;
-    height: 482px;
-    margin: 30px 0 30px 0;
+    width: 631px;
+    height: 378px;
+    margin: 10px 0 40px 0;
 }
 
 .card-wrapper-left {
@@ -270,6 +270,9 @@ footer {
     .header-mobile a {
         text-decoration: none;
     }
+    .header-mobile ul li a:visited {
+        font-weight: 800 !important;
+    }
     /* HEADER SECTION END */
     .page-padding-mobile {
         padding: 0 20px 0 20px;
@@ -355,8 +358,8 @@ footer {
         height: 188px;
     }
     .card-wrapper .img3 {
-        width: 195px;
-        height: 177px;
+        width: 282px;
+        height: 212px;
     }
     .card-wrapper-mobile h4 {
         text-align: center;
